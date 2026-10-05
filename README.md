@@ -40,6 +40,6 @@ A pasta [`google-ads/`](google-ads/) tem a campanha pronta para o Google Ads Edi
 npm run dev
 ```
 
-Cada push na `main` publica no GitHub Pages pelo workflow em `.github/workflows/deploy.yml`.
+Cada push na `main` gera o site e envia a pasta `dist/` para a branch `gh-pages`, que é a fonte do GitHub Pages.
 
 Visual inspirado no template "mobile SaaS" do 21st.dev. Código original.
