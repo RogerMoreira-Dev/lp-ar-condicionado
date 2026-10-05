@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+# Página demonstrativa: as páginas usam meta robots noindex.
