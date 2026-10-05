@@ -3,3 +3,6 @@ node_modules/
 .shots/
 .claude/
 .DS_Store
+
+.vercel
+.env*

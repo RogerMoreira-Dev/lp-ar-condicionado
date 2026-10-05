@@ -18,7 +18,7 @@ export const site = {
   phone: "",
   phoneDisplay: "",
 
-  url: "https://rogermoreira-dev.github.io/lp-ar-condicionado",
+  url: "https://lp-ar-condicionado-tau.vercel.app",
   demo: true,
 
   tracking: {

@@ -2,7 +2,7 @@
 
 Site de exemplo de uma empresa de climatização em que cada anúncio leva para uma página própria e todo botão termina no WhatsApp com a mensagem pronta, incluindo uma **calculadora de BTU** que sugere o aparelho certo para o cômodo.
 
-**Site no ar:** https://rogermoreira-dev.github.io/lp-ar-condicionado/
+**Site no ar:** https://lp-ar-condicionado-tau.vercel.app/
 
 > A "Aleta Climatização" é uma empresa fictícia. Página demonstrativa de portfólio: `noindex`, depoimentos de exemplo e botões sem número real.
 
@@ -40,6 +40,6 @@ A pasta [`google-ads/`](google-ads/) tem a campanha pronta para o Google Ads Edi
 npm run dev
 ```
 
-Cada push na `main` gera o site e envia a pasta `dist/` para a branch `gh-pages`, que é a fonte do GitHub Pages.
+Publicado na Vercel (`vercel deploy --prod`), que gera o site com `node build.mjs` a partir do `vercel.json`. O workflow do GitHub Pages fica como alternativa.
 
 Visual inspirado no template "mobile SaaS" do 21st.dev. Código original.
